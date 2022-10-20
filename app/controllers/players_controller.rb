@@ -32,7 +32,7 @@ class PlayersController < ApplicationController
             "TRB": params["TRB"],
             "Tm": params["Tm"],
             "eFG%": params["eFG%"],
-            "season": '2022'
+            "season": '2021'
         )
         render json: player 
         end 
