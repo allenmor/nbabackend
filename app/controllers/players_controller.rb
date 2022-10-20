@@ -34,6 +34,6 @@ class PlayersController < ApplicationController
             "eFG%": params["eFG%"],
             "season": '2021',
         )
-    end
+    end 
     render json: player
 end
