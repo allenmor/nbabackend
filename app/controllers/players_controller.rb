@@ -38,6 +38,6 @@ class PlayersController < ApplicationController
     end 
 
     def all_players 
-        render json: Player.all
+        render json: Player.all 
     end
 end
