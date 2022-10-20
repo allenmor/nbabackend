@@ -35,5 +35,5 @@ class PlayersController < ApplicationController
             "season": '2021',
         )
     end 
-    render json: player
+    render json: player 
 end
