@@ -34,6 +34,10 @@ class PlayersController < ApplicationController
             "eFG%": params["eFG%"],
             "season": '2021',
         )
+        render json: player 
     end 
-    render json: player 
+
+    def all_players 
+        render json: Player.all
+    end
 end
