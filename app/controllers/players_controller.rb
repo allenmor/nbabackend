@@ -64,7 +64,7 @@ class PlayersController < ApplicationController
             "GS": params["GS"],
             "MP": params["MP"],
             "ORB": params["ORB"],
-            "PF": params["PF"],
+            "PF": params["PF"], 
             "PTS": params["PTS"],
             "Player": params["Player"],
             "Player-additional": params["Player-additional"],
